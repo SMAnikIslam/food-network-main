@@ -5,6 +5,12 @@ body {
 h1 {
   font-size: 70px;
 }
+#quotes {
+  font-family: "Pacifico", cursive;
+  background: -webkit-linear-gradient(hsl(0, 0%, 93%), rgb(206, 138, 138));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 h2 {
   font-size: 60px;
 }
@@ -96,4 +102,12 @@ h3 {
   margin-bottom: 40px;
   box-shadow: 10px 10px 10px 10px rgb(189, 189, 189);
   border-radius: 20px;
+}
+.lastsection {
+  background-color: rgb(5, 1, 44);
+  color: rgb(187, 191, 195);
+  text-align: center;
+}
+#color {
+  color: aquamarine;
 }
