@@ -7,7 +7,7 @@ h1 {
 }
 #quotes {
   font-family: "Pacifico", cursive;
-  background: -webkit-linear-gradient(hsl(78, 98%, 53%), rgb(231, 7, 7));
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(235, 14, 14));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
