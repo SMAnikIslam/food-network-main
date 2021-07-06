@@ -7,7 +7,7 @@ h1 {
 }
 #quotes {
   font-family: "Pacifico", cursive;
-  background: -webkit-linear-gradient(hsl(0, 0%, 93%), rgb(206, 138, 138));
+  background: -webkit-linear-gradient(hsl(78, 98%, 53%), rgb(231, 7, 7));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -110,4 +110,49 @@ h3 {
 }
 #color {
   color: aquamarine;
+}
+.subscribebox {
+  background-image: url(images/eat\ .jpg);
+  margin-left: 10px;
+  margin-right: 10px;
+  outline: 2px solid black;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-right: 100px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  outline-width: medium;
+  text-align: center;
+}
+.subscribebox h1 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 0px;
+}
+.subscribebox h4 {
+  text-transform: capitalize;
+}
+.subscribebox input {
+  width: 30%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.subscribebox button {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: #fbec0e;
+  background-image: linear-gradient(
+    to right,
+    rgb(110, 71, 71),
+    rgb(148, 147, 147)
+  );
+}
+.subscribebox button:hover {
+  background: rgb(0, 8, 12);
 }
